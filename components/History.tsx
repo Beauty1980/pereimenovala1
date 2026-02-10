@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Transaction, UserSettings, ObligationType } from '../types';
-import { Edit2, Trash2, Check, X, Filter, Trash } from 'lucide-react';
+import { Edit2, Trash2, Check, X, Filter, Trash, Clock } from 'lucide-react';
 import { BASE_CATEGORIES } from '../constants';
 
 interface HistoryProps {
@@ -102,7 +102,7 @@ export const History: React.FC<HistoryProps> = ({ settings, transactions, onUpda
         {sortedTx.length === 0 && (
           <div className="py-20 text-center space-y-3">
             <div className="w-12 h-12 bg-slate-900 rounded-full mx-auto flex items-center justify-center text-slate-700">
-              <History size={24} />
+              <Clock size={24} />
             </div>
             <p className="text-slate-500 text-sm">Тут пока пусто. Начни записывать траты в чате!</p>
           </div>
