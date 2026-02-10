@@ -1,0 +1,7 @@
+{
+  "name": "Finance Agent: AI Controller",
+  "description": "Minimalist personal finance tracker with an AI agent that monitors limits, parses natural language, and provides strict or soft feedback based on your spending habits.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
