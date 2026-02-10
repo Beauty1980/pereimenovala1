@@ -155,7 +155,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
 
         <button
           onClick={handleNext}
-          className="w-full bg-[#4169E1] hover:bg-[#3558C0] text-white font-bold py-4 rounded-2xl flex items-center justify-center transition-all group shadow-lg shadow-[#4169E1]/20"
+          className="w-full bg-[#4169E1] hover:bg-[#3558C0] text-white font-bold py-4 rounded-2xl flex items-center justify-center transition-all group shadow-[0_0_15px_rgba(65,105,225,0.5),0_0_30px_rgba(65,105,225,0.3)] hover:shadow-[0_0_20px_rgba(65,105,225,0.7),0_0_40px_rgba(65,105,225,0.4)] animate-pulse"
         >
           {step === 3 ? 'Готово' : 'Далее'}
           <ChevronRight size={20} className="ml-2 group-hover:translate-x-1 transition-transform" />
